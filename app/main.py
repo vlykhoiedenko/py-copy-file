@@ -3,7 +3,7 @@ def copy_file(command: str) -> None:
     if len(parts) == 3 and parts[0] == "cp":
         source_file_name, target_file_name = parts[1], parts[2]
     else:
-        return
+        return #dsa
     if source_file_name == target_file_name:
         return
 
